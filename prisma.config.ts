@@ -9,6 +9,6 @@ export default defineConfig({
     path: "prisma/migrations",
   },
   datasource: {
-    url: env("DATABASE_URL"),
+    url: env("mongodb+srv://mukesh2sahu786_db_user:VW9TtcU7wtFhH8nD@cluster0.6iiwe6j.mongodb.net/?appName=Cluster0"),
   },
 });
